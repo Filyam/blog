@@ -1,0 +1,16 @@
+.header_menu {
+  display: flex;
+}
+.header_menu_item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header_menu_item:hover {
+  color: #d1bb95;
+}

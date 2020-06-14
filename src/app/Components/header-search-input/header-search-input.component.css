@@ -1,0 +1,21 @@
+input {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  font-style: italic;
+  color: #a6a6a6;
+  padding: 0 25px 0 0;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  outline: none;
+}
+
+fa-icon {
+  margin-left: -20px;
+}
+fa-icon:hover {
+  cursor: pointer;
+  color: #a6a6a6;
+}

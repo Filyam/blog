@@ -1,0 +1,19 @@
+.header_icon {
+margin-left: 20px;
+
+}
+.div_header_icon{
+  display: flex;
+  align-items: center;
+}
+.header_icon:hover {
+  color: #d1bb95;
+  cursor: pointer;
+}
+
+.divider {
+  height: 100%;
+  width: 1px;
+  background-color: black;
+  margin-right: 40px;
+}

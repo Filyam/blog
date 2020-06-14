@@ -1,0 +1,50 @@
+.pages_menu:hover>.pages_dropdown {
+ display: block;
+}
+.pages_dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 180px;
+
+}
+.pages_menu{
+  position: relative;
+}
+.pages_button {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pages_button:hover {
+  color:#d1bb95;
+}
+
+.pages_menu:hover .icon {
+  color: black;
+  transform: rotate(180deg);
+}
+
+.pages_dropdown> p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pages_dropdown> p:hover {
+  color:#d1bb95;
+}
+
+
+.icon {
+  margin-left: 10px;
+  transition: all .3s ease-out;
+}
