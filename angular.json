@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-fake"
+    }
+  },
+  "defaultProject": "my-fake",
+  "cli": {
+    "analytics": false
+  }
 }
