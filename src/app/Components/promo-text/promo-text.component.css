@@ -1,0 +1,34 @@
+.promo_alltext p {
+  margin-top: 25px;
+  margin-left: 120px;
+  margin-right: 30px;
+}
+.promo_date {
+  font-size: 13px;
+  font-weight: 700;
+  color: #d1bb95;
+  text-transform: uppercase;
+  letter-spacing: 0.05cm;
+}
+.promo_logotype {
+  font-size: 36px;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 0.05cm;
+}
+.promo_text {
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 0.05cm;
+}
+
+.promo_alltext {
+  margin-top: 250px;
+  height: 300px;
+  position: absolute;
+}
+.promo_logotype:hover {
+  cursor: pointer;
+  color: #d1bb95;
+  transition: all .3s ease;
+}

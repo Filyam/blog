@@ -1,0 +1,31 @@
+.last_img {
+  width: 700px;
+}
+.last_img:hover {
+  cursor: pointer;
+}
+.date_thumbnail {
+  text-transform: uppercase;
+  letter-spacing: 0.01cm;
+  font-size: 18px;
+  color: #d1bb95;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.logotype_thumbnail {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.logotype_thumbnail:hover {
+  cursor: pointer;
+  color: #d1bb95;
+  transition: all 0.3s ease-in-out;
+}
+.text_thumbnail {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+}

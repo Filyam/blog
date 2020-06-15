@@ -1,0 +1,42 @@
+.all_latest_thumbnail_all {
+  width: 730px;
+}
+
+.photo_latest_thumbnail{
+  margin-top: 100px;
+  width: 350px;
+}
+.photo_latest_thumbnail:hover {
+  cursor: pointer;
+}
+.date_latest_thumbnail {
+  color: #d1bb95;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.07cm;
+}
+.logotype_latest_thumbnail {
+  font-size: 25px;
+  font-weight: 500;
+}
+.all_latest_thumbnail_left {
+  width: 350px;
+  position: absolute;
+  margin-left: 0px;
+}
+.logotype_latest_thumbnail:hover{
+  cursor: pointer;
+  color: #d1bb95;
+  transition: all 0.3s ease-in-out;
+}
+.text_latest_thumbnail {
+margin-top: 20px;
+  line-height: 32px;
+  font-size: 15px;
+}
+.all_latest_thumbnail_right {
+  margin-left: 380px;
+  width: 350px;
+}

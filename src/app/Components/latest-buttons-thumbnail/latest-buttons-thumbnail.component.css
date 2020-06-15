@@ -1,0 +1,22 @@
+.buttons_from_thumbnail {
+  width: 130px;
+  height: 44px;
+  margin-top: 100px;
+  color: grey;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid grey;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.buttons_from_thumbnail:hover {
+  color: black;
+}
+.buttons_from_thumbnail_div {
+  display: flex;
+  height: 44px;
+  justify-content: space-between;
+}
+
+

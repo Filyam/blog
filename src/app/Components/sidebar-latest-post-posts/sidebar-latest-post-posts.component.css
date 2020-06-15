@@ -1,0 +1,25 @@
+.sidebar_photo_post {
+  width: 123px;
+}
+.sidebar_photo_post:hover {
+  cursor: pointer;
+}
+
+.sidebar_all_latest_posts {
+  flex-flow: column;
+}
+.sidebar_one_post {
+  margin-top: 25px;
+  width: 340px;
+  display: flex;
+}
+.sidebar_text_latest_post {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sidebar_text_latest_post:hover {
+  cursor: pointer;
+  color: #d1bb95;
+  transition: all 0.3s ease-in-out;
+}
