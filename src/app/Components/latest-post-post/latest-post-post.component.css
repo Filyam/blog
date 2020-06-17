@@ -1,5 +1,10 @@
 .all_latest_thumbnail_all {
-  width: 730px;
+  width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.all_latest_thumbnail_left:nth-child(even) {
+  margin-left: 30px;
 }
 
 .photo_latest_thumbnail{
@@ -23,8 +28,7 @@
 }
 .all_latest_thumbnail_left {
   width: 350px;
-  position: absolute;
-  margin-left: 0px;
+
 }
 .logotype_latest_thumbnail:hover{
   cursor: pointer;
@@ -36,7 +40,6 @@ margin-top: 20px;
   line-height: 32px;
   font-size: 15px;
 }
-.all_latest_thumbnail_right {
-  margin-left: 380px;
-  width: 350px;
-}
+
+
+
