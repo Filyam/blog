@@ -15,7 +15,7 @@
 }
 .buttons_from_thumbnail_div {
   display: flex;
-  height: 44px;
+  height: 200px;
   justify-content: space-between;
 }
 

@@ -1,6 +1,6 @@
 <div class="sidebar_all_latest_posts">
   <div *ngFor="let sidebarPost of sidebarPosts" class="sidebar_one_post">
-    <img [src]="sidebarPost.img" class="sidebar_photo_post" alt="">
+    <img class="sidebar_photo_post" [src]="sidebarPost.img">
     <p class="sidebar_text_latest_post">{{sidebarPost.logotype}}</p>
   </div>
 </div>

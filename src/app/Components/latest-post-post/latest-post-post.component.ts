@@ -14,7 +14,7 @@ export class LatestPostPostComponent implements OnInit {
   }
 
   ngOnInit() {
-   this.posts = this.postService.getSidebarPosts();
+   this.posts = this.postService.getPosts();
    console.log(this.posts);
   }
 }
