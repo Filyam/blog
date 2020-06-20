@@ -27,6 +27,7 @@ import { SidebarLatestPostPostsComponent } from './Components/sidebar-latest-pos
 import { SidebarAddsComponent } from './Components/sidebar-adds/sidebar-adds.component';
 import { SidebarNewsletterComponent } from './Components/sidebar-newsletter/sidebar-newsletter.component';
 import { PostsService } from './services/posts.service';
+import {FirebaseModule} from "./firebase/firebase.module";
 
 
 @NgModule({
@@ -59,6 +60,7 @@ import { PostsService } from './services/posts.service';
         BrowserModule,
         ReactiveFormsModule,
         FontAwesomeModule,
+      FirebaseModule
     ],
   providers: [PostsService],
   bootstrap: [AppComponent],
