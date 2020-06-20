@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "filiam-blog": {
+      "hosting": {
+        "my-fake": [
+          "filiam-blog"
+        ]
+      }
+    }
+  }
+}
