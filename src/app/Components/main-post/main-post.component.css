@@ -1,0 +1,17 @@
+.main_thumbnail {
+  /*margin-left: 25%;*/
+  margin-top: 100px;
+  /*height: 2700px;*/
+  /*margin-right: 30px;*/
+  max-width: 730px;
+
+}
+.latest_post_thumbnail {
+  display: flex;
+  width: 730px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.latest_button_thumbik {
+  margin-top: 200px;
+}

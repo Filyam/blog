@@ -1,0 +1,10 @@
+<div class="all_latest_thumbnail_all">
+  <div *ngFor="let post of posts" class="all_latest_thumbnail_left">
+  <img [src]= "post.img" class="photo_latest_thumbnail">
+<p class="date_latest_thumbnail">{{post.date}}</p>
+<p class="logotype_latest_thumbnail">{{post.logotype}}</p>
+  <p class="text_latest_thumbnail">{{post.text}}</p>
+</div>
+</div>
+
+

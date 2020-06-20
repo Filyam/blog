@@ -1,0 +1,7 @@
+.all_posts {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+}

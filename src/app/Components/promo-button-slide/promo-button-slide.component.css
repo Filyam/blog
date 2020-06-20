@@ -1,0 +1,24 @@
+.promo_slider_button_left {
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+
+
+}
+.promo_slider_button_right {
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+
+}
+.promo_slider_buttons_all {
+  margin-top: 670px;
+  vertical-align: center;
+  margin-left: 100px;
+}
+.promo_slider_buttons_all button {
+  margin-left: 20px;
+}
+.promo_slider_buttons_all:hover button {
+  cursor: pointer;
+}

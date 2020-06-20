@@ -1,0 +1,9 @@
+.button_readmore {
+  margin-top: 550px;
+  height: 60px ;
+  width: 200px;
+  text-transform: uppercase;
+  margin-left: 120px;
+  position: absolute;
+  cursor: pointer;
+}
